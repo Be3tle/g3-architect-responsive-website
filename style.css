@@ -1,4 +1,4 @@
-/* shared styles */
+/* shared */
 body {
   font-family: "Work Sans", sans-serif;
 }
@@ -12,7 +12,7 @@ body {
   cursor: pointer;
   font-weight: 600;
 }
-/* header styles */
+/* header */
 header {
   background: rgba(255, 144, 14, 0.1);
   padding: 50px 240px;
@@ -44,7 +44,7 @@ nav li a {
   color: #424242;
 }
 
-/* banner styles */
+/* banner */
 .banner-content {
   max-width: 800px;
   text-align: center;
@@ -65,7 +65,7 @@ img {
   margin-top: 20px;
 }
 
-/* responsive styles */
+/* responsiveness */
 @media screen and (max-width: 576px) {
   /* mobile */
   header {
@@ -84,4 +84,26 @@ img {
       flex-direction: column;
     }
   }
+}
+
+/* main */
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* teams */
+.teams-container {
+  display: flex;
+  align-items: center;
+}
+
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.teams-content {
+  padding: 0 70px;
 }
